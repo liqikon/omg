@@ -66,7 +66,7 @@ gltfLoader.load(
     '/3d/model.gltf',
     (gltf) =>
     {
-        gltf.scene.scale.set(0.02,0.02,0.02)
+        gltf.scene.scale.set(0.015,0.015,0.015)
         scene.add(gltf.scene)
         console.log(scene.children);
         mesh = scene.children[2];
